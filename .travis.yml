@@ -4,7 +4,7 @@ script:
   - make clean test
 
 notifications:
-    email:
-      - knakayama@agency-star.co.jp
+  email:
+    - knakayama@agency-star.co.jp
   on_success: always
   on_failure: always
