@@ -6,5 +6,5 @@ script:
 notifications:
     emails:
       - knakayama@agency-star.co.jp
-  on_success: always # default: change
+  on_success: always
   on_failure: always
