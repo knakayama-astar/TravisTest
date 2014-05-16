@@ -1,1 +1,10 @@
 language: objective-c
+
+script:
+	- make clean test
+
+notifications:
+ 	emails:
+    	- knakayama@agency-star.co.jp
+    on_success: always # default: change
+	on_failure: always
