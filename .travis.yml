@@ -4,7 +4,7 @@ env:
   - secure: fNVvONEM9EvtGPTmMLKTQ5kMt8dBO21QHceSrmOCUB8muAy8QBsAtznxf5xlgUHp8P9a04y1NluypR29FZAByT3PX/v6GOya26+9FbsNnwtiBk4C2bQ8T1gBdO5T2+aKwXZhq6MiJjQ7umZGNrWp6lTHtmH+oDbJys5BjABkhSs=
   - secure: xbw1oBMWvF8GYLuCPdwBg+OaWNu7EAciUOjgygWXR4keFa5A5TRsdjNlhrlCAWkRr8WEJwZiTLxAbmelQDYfEc2PBFdLoVjQ73W5Yl9jb/NpRxv8H6eLA9KFAyLKY/d8hYqY/GjSxvIPfbZTHKBioOpj1N/zy9r9OVojHuw4RUQ=
 script:
-
+make build
 after_success:
 - '[ "$TRAVIS_BRANCH" == "master" -o "$TRAVIS_BRANCH" == "develop" ] && make testflight'
 after_script:

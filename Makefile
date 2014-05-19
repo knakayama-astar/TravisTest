@@ -1,6 +1,6 @@
 PROJECT="TravisTest.xcodeproj"
 TEST_TARGET="TravisTestTests"
-SDK="iphoneos6.0"
+SDK=iphoneos7.1
 CONFIGURATION="AdHoc"
 
 CONFIGURATION_TEMP_DIR=./tmp
